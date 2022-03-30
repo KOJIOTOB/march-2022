@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+h1 {
+    background: deeppink;
+    color: blue;
+    text-align: center;
+    font-size: 55px;
+}
+
+img {
+    width: 400px;
+}
+
+p {
+    color: blue;
+    font-size: 20px;
+    background: yellow;
+}
+
+h2>a {
+    text-decoration: none;
+    color: red;
+    background: darkolivegreen;
+}
+
+h2>a:hover {
+    color: blue;
+    background: none;
+}
+
+ul>li {
+    color: red;
+    font-size: 18px;
+    background: indigo;
+}
