@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+}
+
+.container {
+    width: 800px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block {
+    border: solid 2px #a8a8a8;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+}
+
+.icon {
+    width: 80px;
+    height: 80px;
+    border: solid 2px #a8a8a8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    position: relative;
+    bottom: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+}
+
+.icon>img {
+    height: 25px;
+}
+
+.title {
+position: relative;
+    bottom: 35px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.description {
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-gap: 10px;
+    color: #a8a8a8;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border: solid 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+}
+
+.btn:hover {
+    box-shadow: rgba(255, 255, 255, 0.2) 0 0 0 1px inset, rgba(0, 0, 0, 0.9) 0 0 0 1px;
+}
+
+.btn>a {
+    text-decoration: none;
+    color: black;
+}
