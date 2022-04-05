@@ -42,13 +42,11 @@
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     font-size: 14px;
-    grid-gap: 10px;
     color: #a8a8a8;
+    text-align: center;
+    width: 228px;
+    line-height: 30px;
 }
 
 .btn {

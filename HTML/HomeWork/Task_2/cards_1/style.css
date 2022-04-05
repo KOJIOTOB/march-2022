@@ -30,12 +30,9 @@
 }
 
 .description {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-gap: 10px;
     color: #a3a3a3;
+    text-align: center;
+    line-height: 30px;
 }
 
 .btn {
