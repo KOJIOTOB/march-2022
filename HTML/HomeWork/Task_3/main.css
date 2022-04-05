@@ -44,7 +44,7 @@
 }
 
 .title {
-position: relative;
+    position: relative;
     bottom: 35px;
     font-size: 20px;
     font-weight: 500;
@@ -53,11 +53,9 @@ position: relative;
 .description {
     position: relative;
     bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    grid-gap: 10px;
     color: #a8a8a8;
+    text-align: center;
+    line-height: 27px;
 }
 
 .btn {
