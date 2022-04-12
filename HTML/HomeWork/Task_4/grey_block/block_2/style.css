@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 1300px;
+    height: 950px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: grey;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    grid-gap: 10px;
+}
+
+.size {
+    height: 300px;
+    width: 300px;
+    background: #d9d9d9;
+    margin-top: 10px;
+}
+
+.size:hover {
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 3px, rgba(0, 0, 0, 0.24) 0 1px 2px;
+}
+
+.box_a {
+    width: 1275px;
+    background: #d9d9d9;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.box_b {
+    width: 910px;
+    height: 300px;
+    background: #d9d9d9;
+    margin-top: 10px;
+}
+
+.box_f {
+    width: 350px;
+    height: 610px;
+    background: #d9d9d9;
+
+}
+
+.box_right {
+    position: relative;
+    bottom: 300px;
+
+}
+
+@media (min-width: 390px) and (max-width: 844px) {
+    .container {
+        width: 390px;
+        height: 844px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .box_a {
+        width: 365px;
+        height: 100px;
+        border-radius: 40px;
+        font-size: 50px;
+    }
+
+    .box_b {
+        width: 365px;
+        height: 300px;
+        border-radius: 40px;
+        font-size: 50px;
+    }
+
+    .box {
+        width: 390px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    .box_small {
+        height: 100px;
+        width: 100px;
+        position: relative;
+        left: 20px;
+        top: 20px;
+        border-radius: 35px;
+        font-size: 50px;
+    }
+
+    .box_f {
+        width: 365px;
+        height: 100px;
+        position: relative;
+        top: 300px;
+        font-size: 50px;
+        border-radius: 35px;
+    }
+
+    .box_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
