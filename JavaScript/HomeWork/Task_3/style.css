@@ -1,0 +1,57 @@
+body {
+    background: grey;
+}
+
+.bg {
+    color: blue;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.bgr {
+    color: yellow;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+.product-card  {
+    width: 1100px;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3e68bd;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+.hero>img {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+}
+
+.title {
+    position: relative;
+    bottom: 130px;
+    left: 100px;
+    font-size: 30px;
+    color: tomato;
+
+}
+
+.price {
+    position: relative;
+    top: 130px;
+    left: 55px;
+    font-size: 30px;
+    color: chartreuse;
+
+}
