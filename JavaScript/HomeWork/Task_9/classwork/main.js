@@ -56,7 +56,8 @@ let simpsons = [
     const elementH4 = document.createElement('h4');
     const elementP = document.createElement('p');
     const elementImg = document.createElement('img');
-    const elementHr = document.createElement('hr')
+    const elementHr = document.createElement('hr');
+
 
     elementDiv.classList.add('member');
     elementH2.classList.add('member');
@@ -64,6 +65,8 @@ let simpsons = [
     elementH4.classList.add('member');
     elementP.classList.add('member');
     elementImg.classList.add('member');
+
+    elementP.style.width = '400px';
 
     elementH2.innerText = `${simpson.name}`;
     elementH3.innerText = `${simpson.surname}`;
@@ -76,12 +79,12 @@ let simpsons = [
 
     elementDiv.append(elementH2, elementH3, elementH4, elementP, elementImg, elementHr);
 
-}
-*/
+}*/
 
 
 //- Є масив
 
+/*
 let coursesArray = [
     {
         title: 'JavaScript Complex',
@@ -151,6 +154,7 @@ let coursesArray = [
         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
     }
 ];
+*/
 
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png
@@ -190,3 +194,5 @@ for (const coursesArrayElement of coursesArray) {
     }
     document.body.appendChild(content_li);
 }*/
+
+
