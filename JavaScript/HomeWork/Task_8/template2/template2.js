@@ -26,7 +26,7 @@ for (const allClass1 of allClass) {
 
 const textElement = document.getElementsByClassName('listElement2');
 for (const textElementElement of textElement) {
-    console.log(textElementElement)
+    console.log(textElementElement.innerText)
 }
 
 // e) отримує всі елементи li та змінює ім колір фону на сірий
