@@ -1,0 +1,41 @@
+.container {
+    border: solid 3px red;
+    height: 420px;
+
+}
+
+.title {
+    border: solid 3px darkblue;
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.month {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border: solid 3px darkblue;
+    position: relative;
+    left: 30px;
+
+}
+
+.hour {
+    display: flex;
+    justify-content: center;
+    border: solid 3px darkblue;
+    width: 60%;
+    position: relative;
+    left: 505px;
+    bottom: 48px;
+}
+
+.content {
+    border: solid 3px darkblue;
+    width: 92%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 300px;
+}
