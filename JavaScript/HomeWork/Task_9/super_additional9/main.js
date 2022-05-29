@@ -1,5 +1,5 @@
 
-/*let users = [{
+let users = [{
     name: 'vasya',
     age: 31,
     status: false,
@@ -54,7 +54,7 @@
     age: 31,
     status: true,
     address: {city: 'Cairo', country: 'Egypt', street: 'Seashore', houseNumber: 45}
-}];*/
+}];
 
 // - З масиву users за допомогою циклу витягнути адреси користувачів і записати (скопіювати) їх в інший порожній масив.
 
@@ -101,7 +101,7 @@
 
 // - За допомоги циклу проітерувати  масив users, записати кожного юзера в сівй блок за допомоги document.createElement, розділивши всі властивості по своїм блокам , блок з адресою зробити окремим блоком, з блоками для кожної властивості
 
-/*for (const user of users) {
+for (const user of users) {
     let block = document.createElement('div');
     let name = document.createElement('h2');
     let age = document.createElement('h3');
@@ -140,7 +140,7 @@
 
     block.append(name, age, status, address, city, country, street, houseNumber);
     address.append(city, country, street, houseNumber);
-}*/
+}
 
 
 // - є сторінка rules.html. Контентом сторінки є заголовки та параграфи. Заголовки (h2) характеризують тему контенту яка вказана в параграфі.

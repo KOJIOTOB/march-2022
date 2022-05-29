@@ -84,7 +84,6 @@ for (const coursesAndDurationArrayElement of coursesAndDurationArray) {
 
 // - Є масив
 
-/*
 let coursesAndDurationArray = [
     {title: 'JavaScript Complex', monthDuration: 5},
     {title: 'Java Complex', monthDuration: 6},
@@ -114,4 +113,3 @@ for (const coursesAndDurationArrayElement of coursesAndDurationArray) {
 
     document.body.append(divElem);
 }
-*/
