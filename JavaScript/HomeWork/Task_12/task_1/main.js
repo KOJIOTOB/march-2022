@@ -48,25 +48,3 @@ fetch('https://jsonplaceholder.typicode.com/posts')
         }
     });
 */
-
-
-
-
-fetch('https://jsonplaceholder.typicode.com/comments')
-    .then(response => response.json())
-    .then(comments => {
-        let wraper = document.createElement('div');
-        wraper.classList.add('wraper');
-        for (const comment of comments) {
-            let divCard = document.createElement('div');
-            divCard.classList.add('comment');
-            divCard.innerHTML = `
-                        <h3>ID: ${comment.id}</h3>
-                        <h4>Name: ${comment.name}</h4>
-                        <h5>Email: ${comment.email}</h5>
-                        <h6>Body: ${comment.body}</h6>
-                        `;
-            wraper.appendChild(divCard);
-            document.body.appendChild(wraper);
-        }
-    })
