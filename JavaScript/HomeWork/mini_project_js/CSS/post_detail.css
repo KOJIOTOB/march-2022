@@ -1,10 +1,8 @@
 .container {
     border: 3px solid forestgreen;
     box-shadow: rgba(6, 24, 44, 0.4) 0 0 0 2px, rgba(6, 24, 44, 0.65) 0 4px 6px -1px, rgba(255, 255, 255, 0.08) 0 1px 0 inset;
-
-}
-.post {
-
+    margin: 0 auto;
+    width: 1400px;
 }
 
 .post>h4 {
@@ -31,10 +29,11 @@
 }
 
 .box {
-    margin-top: 10px;
     display: flex;
     flex-direction: column;
     grid-gap: 10px;
+    width: 1400px;
+    margin: 10px auto;
 }
 
 .div_comment {
