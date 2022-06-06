@@ -3,7 +3,6 @@
 //  // https://jsonplaceholder.typicode.com/posts
 // //     зробити кнопку до кожного поста. при кліку на яку виводяться в окремий блок всі коментарі поточного поста
 
-/*
 fetch('https://jsonplaceholder.typicode.com/posts')
     .then(response => {
         return response.json();
@@ -21,12 +20,11 @@ fetch('https://jsonplaceholder.typicode.com/posts')
                         `;
             let button = document.createElement('button');
             button.innerText = 'Click Comments';
-            button.onclick = (id) => {
+            button.onclick = () => {
                 fetch('https://jsonplaceholder.typicode.com/posts/' + post.id + '/comments')
                     .then(response => response.json())
                     .then(comments => {
                         for (const comment of comments) {
-
                             if (post.id === comment.postId) {
                                 let divCardComments = document.createElement('div');
                                 divCardComments.classList.add('cardComments');
@@ -47,4 +45,3 @@ fetch('https://jsonplaceholder.typicode.com/posts')
             document.body.appendChild(wraper);
         }
     });
-*/
